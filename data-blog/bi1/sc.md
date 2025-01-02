@@ -24,7 +24,6 @@ getwd()
 
 ## Run DESeq2
 ```r
-dir <- 'res'
 S1 <- '33'
 S2 <- '150'
 
@@ -73,7 +72,7 @@ cutoff_str <- as.character(cutoff)
 
 sig_res <- dplyr::filter(res_tbl, padj < cutoff)
 sig_res <- dplyr::arrange(sig_res, padj)
-sig_res_file <- paste0(dir, '/res_', S2, '_', S1, '_', val_str, cutoff_str, '.csv')
+sig_res_file <- paste0('res_', S2, '_', S1, '_', val_str, cutoff_str, '.csv')
 #write.csv(sig_res, file = sig_res_file)
 
 print(paste0(S2, ' vs ', S1, ' | ', val_str, '<', cutoff_str))
