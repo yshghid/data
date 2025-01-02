@@ -98,3 +98,5 @@ target_id	ens_gene	description	ext_gene
 5	ENST00000386347.1	ENSG00000209082	mitochondrially encoded tRNA-Leu (UUA/G) 1 [Source:HGNC Symbol;Acc:HGNC:7490]	MT-TL1
 6	ENST00000361390.2	ENSG00000198888	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 1 [Source:HGNC Symbol;Acc:HGNC:7455]	MT-ND1
 ```
+
+*6 directories (output_150-1, ..., output_con-3) and 1 sleuth file (150_con_so.sleuth) didn't uploaded due to large file size.*
