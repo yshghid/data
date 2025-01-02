@@ -61,7 +61,7 @@ sleuth_table_gene <- sleuth_results(so, 'reduced:full', 'lrt', show_all = FALSE)
 sleuth_save(so, '150_con_so.sleuth')
 write_csv(sleuth_table_gene, '150_con.csv')
 ```
-```
+```plain text
 [1] '0.30.1'
 '/data-blog/bi4'
 '33-1'
