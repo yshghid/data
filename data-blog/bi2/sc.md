@@ -92,5 +92,5 @@ A1BG	0.891892	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000
 28278 rows × 8 columns
 ```
 ```python
-df_quantiled.to_csv('df_quantiled.csv')
+df_qt.to_csv('df_quantiled.csv')
 ```
